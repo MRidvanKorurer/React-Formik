@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right top, #8449c0, #6b48a7, #57458d, #474071, #3b3955, #373657, #33345a, #2e315c, #29317d, #252d9e, #2825bd, #390bdb);
+    height: 100vh;
+    color: #fff;
+}
+
+.head {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.head h2 {
+    letter-spacing: 10px;
+    border-bottom: 4px solid #8449c0;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: left;
+}
+
+.formItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.input {
+    width: 500px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.form label {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.inputP {
+    color: red;
+    font-size: 13px;
+    font-weight: lighter;
+    margin-top: 0;
+    display: block;
+    width: 100%;
+}
+
+.btnSubmit {
+    border: none;
+    background-color: #8449c0;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 150px;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.btnSubmit:hover {
+    background-color: #6b48a7;
+}
